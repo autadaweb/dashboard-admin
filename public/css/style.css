@@ -1,0 +1,180 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  
+
+}
+
+
+a{
+  text-decoration: none;
+  
+}
+
+
+.sidebar {
+  width: 240px;
+  height: 100%;
+  position: fixed;
+  margin-left: -270px;
+  transition: 0.4s;
+  overflow: auto;
+
+}
+
+
+
+
+
+ 
+  .card-body{
+    border: 0px;
+  }
+
+
+  .active-table{
+    width: 100%
+  }
+
+
+  #myChart {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+  .sub-menu{
+
+    margin: 5px;
+    display: block;
+    color:#000000;
+    margin-left: 15px;
+    margin-top: 20px;
+
+    
+  }
+
+  a.menu {
+    display: block;
+    color:rgb(99, 96, 96);
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+    }
+
+  a.menu.actip {
+    /* color:rgba(57, 226, 170, 0.418); */
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #7854dd;
+    /* border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    
+    
+    
+    }
+
+
+
+
+
+    .text-hijau{
+      color: #f9c145
+    }
+
+
+
+    .bg-hijau{
+      background-color:rgb(35, 209, 128)
+    }
+
+
+
+
+
+
+
+    a.menu:hover:not(.active) {
+    margin-left: 10px;
+    color:rgb(214, 218, 219);
+
+    }
+
+  @media only screen and (min-width: 768px){
+
+    .active-main-content {
+      margin-left: 240px;
+    }
+
+    .active-sidebar {
+      margin-left: 0px;
+    }
+
+
+    #main-content {
+      transition: 0.4s;
+      
+    }
+    #navbar {
+      transition: 0.4s;
+    }
+
+
+
+  
+
+
+
+
+    
+  }
+
+
+  .btn-roll{
+    transform: rotate(180deg)
+  }
+
+
+
+
+
+  .offcanvas{
+
+    position: fixed;
+    transition: 0.4s;
+    overflow: auto;
+
+
+  }
+
+ 
+
+
+
+
+ 
+
+
+
+  .card{
+    border-radius: 15px;
+  }
+
+
+
+.option-radius option {
+  border-radius: 30px;
+}
+
+
+
+
